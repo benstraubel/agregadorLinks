@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 580px;
+    height: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 64px; 
+    padding-bottom: 32px;
+}
+
+.container-imagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-imagem h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.container-imagem h2 {
+    font-size: 16px;
+    color: #FFFFFF99;
+    margin-top: 2px;
+}
+
+.container-imagem p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.img-perfil {
+    background-image: url('./assets/20250331_142624.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+    margin-bottom: 16px;
+}
+
+.container-botao {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botao {
+    width: 100%;
+    height: 64px;
+    background-color: #40404099;
+    border: 2px solid #606060;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao i {
+    margin-left: 16px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.botao p {
+    flex: 1;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #40404044;
+}
+
+a {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+}
