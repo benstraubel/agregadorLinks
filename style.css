@@ -48,7 +48,7 @@ body {
 }
 
 .img-perfil {
-    background-image: url('./assets/20250331_142624.jpg');
+    background-image: url('./assets/profile-photo.jpg');
     background-size: cover;
     border-radius: 50%;
     height: 96px;
